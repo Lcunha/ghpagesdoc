@@ -16,7 +16,7 @@ cache:
   yarn: true
 
 before_install:
-  - docker pull lcscarvalho/docusaurus-travis
+  - docker pull lcscarvalhoo/docusaurus-travis
 
 script:
   - echo "GH_NAME=${GH_NAME}" >> docs/.env
